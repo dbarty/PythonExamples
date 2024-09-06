@@ -20,4 +20,4 @@ group = Group()
 group.add(Person("Daniel"))
 group.add(Person("Helga"))
 
-print("Number members:", len(group))
+print("Number members:", len(group))  # Calls Group::__len__()
